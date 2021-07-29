@@ -12,7 +12,7 @@ const Graphic = () => {
   let proxy = "https://cors-anywhere.herokuapp.com/";
 
   const getPointsUser = () => 
-    fetch(`http://localhost:5000/point/${user}`)
+    fetch(`https://kboombackend.herokuapp.com/point/${user}`)
     .then(res => res.json())
     .then(json => setPoints(json.data))
 
