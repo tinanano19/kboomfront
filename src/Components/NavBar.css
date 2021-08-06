@@ -1,0 +1,9 @@
+.o-nav{
+    background-color: white;
+    color: #2e2e2e;
+    box-shadow: 0 1px 10px lightgrey;
+}
+.o-logo{
+    width: 3rem;
+    margin-left: 2rem;
+}
