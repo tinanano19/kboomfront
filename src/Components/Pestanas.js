@@ -14,6 +14,7 @@ const Pestanas = () => {
   let { path } = useRouteMatch();
 
   return (
+    <div  className="container o-pestanas">
     <Tabs
       eventKey="profile"
       id="uncontrolled-tab-example"
@@ -30,6 +31,8 @@ const Pestanas = () => {
         <Graphic></Graphic>
       </Tab>
     </Tabs>
+    </div>
   );
+  
 };
 export default Pestanas;
