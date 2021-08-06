@@ -59,6 +59,19 @@ const Graphic = () => {
           labelString: 'Velocidad (m/s)'
         }
       }]
+    },
+    elements: {
+      line: {
+        borderWidth: 4,
+        fill: false,
+      },
+      point: {
+        radius: 4,
+        borderWidth: 4,
+        backgroundColor: 'white',
+        hoverRadius: 8,
+        hoverBorderWidth: 4,
+      }
     }
   };
 
