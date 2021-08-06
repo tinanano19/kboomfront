@@ -20,14 +20,14 @@ const Pestanas = () => {
       id="uncontrolled-tab-example"
       className="container o-container active"
     >
-      <Tab eventKey="home" title="Posición vs. Tiempo">
+      <Tab eventKey="home" title="Velocidad vs. Tiempo">
         <Switch>
           <Route path={`${path}/:user`}>
             <Graphic></Graphic>
           </Route>
         </Switch>
       </Tab>
-      <Tab eventKey="profile" title="Velocidad vs. Tiempo">
+      <Tab eventKey="profile" title="Posición vs. Tiempo">
         <Graphic></Graphic>
       </Tab>
     </Tabs>
