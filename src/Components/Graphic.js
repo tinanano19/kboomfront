@@ -60,11 +60,11 @@ const Graphic = () => {
     },
     elements: {
       line: {
-        borderWidth: 4,
+        borderWidth: 1,
         fill: false,
       },
       point: {
-        radius: 4,
+        radius: 2,
         borderWidth: 4,
         backgroundColor: 'white',
         hoverRadius: 8,
