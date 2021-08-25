@@ -1,19 +1,20 @@
-import {BrowserRouter as Router, Switch, Route, useRouteMatch} from 'react-router-dom';
-import './App.css';
-import NavBar from './Components/NavBar';
-import Tabs from './Components/Pestanas';
-import Graphic from './Components/Graphic';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import "./App.css";
+import NavBar from "./Components/NavBar";
+import Tabs from "./Components/Pestanas";
+import Graphic from "./Components/Graphic";
 
 function App() {
-  
   return (
     <div className="App">
-      <NavBar></NavBar>
+      <NavBar> </NavBar>{" "}
       <Router>
         <Switch>
-          <Route path="/:user" children={<Graphic></Graphic>}><Tabs></Tabs></Route>
-        </Switch>
-      </Router>
+          <Route path="/:user" component={<Graphic> </Graphic>}>
+            <Tabs></Tabs>{" "}
+          </Route>{" "}
+        </Switch>{" "}
+      </Router>{" "}
     </div>
   );
 }
