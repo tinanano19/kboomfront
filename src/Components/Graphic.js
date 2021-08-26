@@ -160,7 +160,7 @@ const Graphic = ({ type }) => {
             <br></br>
           </div>
           <ExcelFile
-            element={<button className="o-button"> Export a Excel </button>}
+            element={<button className="o-button"> Exportar a Excel </button>}
             filename="Velocidad vs. Tiempo"
           >
             <ExcelSheet data={dataaV} name="Velocidad Vs Tiempo">
