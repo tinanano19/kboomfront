@@ -256,7 +256,7 @@ const Graphic = ({ type }) => {
             <br></br>
           </div>
           <ExcelFile
-            element={<button className="o-button"> Export a Excel </button>}
+            element={<button className="o-button"> Exportar a Excel </button>}
             filename="Posicion Vs Tiempo"
           >
             <ExcelSheet data={dataaX} name="Posicion Vs Tiempo">
@@ -294,7 +294,7 @@ const Graphic = ({ type }) => {
             <br></br>
           </div>
           <ExcelFile
-            element={<button className="o-button"> Export a Excel </button>}
+            element={<button className="o-button"> Exportar a Excel </button>}
             filename="Posicion Vs Tiempo"
           >
             <ExcelSheet data={dataaXm2} name="Posicion Vs Tiempo">
@@ -332,7 +332,7 @@ const Graphic = ({ type }) => {
             <br></br>
           </div>
           <ExcelFile
-            element={<button className="o-button"> Export a Excel </button>}
+            element={<button className="o-button"> Exportar a Excel </button>}
             filename="Posicion Vs Tiempo"
           >
             <ExcelSheet data={dataaXm3} name="Posicion Vs Tiempo">
