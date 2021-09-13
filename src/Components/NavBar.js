@@ -14,7 +14,7 @@ const NavBar = () => {
       <Navbar.Toggle />
       <Navbar.Collapse className="justify-content-end">
         <Navbar.Text>
-          Hola, <a href="#login"> Santiago García </a>{" "}
+          Hola, <a href="#login"> Cadete! </a>{" "}
         </Navbar.Text>{" "}
       </Navbar.Collapse>{" "}
     </Navbar>
