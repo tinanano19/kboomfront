@@ -11,13 +11,13 @@ const Pestanas = () => {
       id="uncontrolled-tab-example"
       className="container o-container active"
     >
-      <Tab eventKey="home" title="Masa 1">
+      <Tab eventKey="home" title="Masa Roja">
         <Graphic type={0}></Graphic>
       </Tab>
-      <Tab eventKey="profile" title="Masa 2">
+      <Tab eventKey="profile" title="Masa Amarilla">
         <Graphic type={1}></Graphic>
       </Tab>
-      <Tab eventKey="home2" title="Masa 3">
+      <Tab eventKey="home2" title="Masa Azul">
         <Graphic type={2}></Graphic>
       </Tab>
     </Tabs>
