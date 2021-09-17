@@ -255,8 +255,9 @@ const Graphic = ({ type }) => {
             <br></br>
             <br></br>
           </div>
+          <h5>Descarga los datos, copialos y pegalos en CAPSTONE</h5>
           <ExcelFile
-            element={<button className="o-button"> Exportar a Excel </button>}
+            element={<button className="o-button"> Descargar en Excel </button>}
             filename="Posicion Vs Tiempo"
           >
             <ExcelSheet data={dataaX} name="Posicion Vs Tiempo">
@@ -272,8 +273,10 @@ const Graphic = ({ type }) => {
             <br></br>
             <br></br>
           </div>
+          <h5>Descarga los datos, copialos y pegalos en CAPSTONE</h5>
+
           <ExcelFile
-            element={<button className="o-button"> Exportar a Excel </button>}
+            element={<button className="o-button"> Descargar en Excel </button>}
             filename="Velocidad vs. Tiempo"
           >
             <ExcelSheet data={dataaV} name="Velocidad Vs Tiempo">
@@ -293,8 +296,10 @@ const Graphic = ({ type }) => {
             <br></br>
             <br></br>
           </div>
+          <h5>Descarga los datos, copialos y pegalos en CAPSTONE</h5>
+
           <ExcelFile
-            element={<button className="o-button"> Exportar a Excel </button>}
+            element={<button className="o-button"> Descargar en Excel </button>}
             filename="Posicion Vs Tiempo"
           >
             <ExcelSheet data={dataaXm2} name="Posicion Vs Tiempo">
@@ -310,8 +315,10 @@ const Graphic = ({ type }) => {
             <br></br>
             <br></br>
           </div>
+          <h5>Descarga los datos, copialos y pegalos en CAPSTONE</h5>
+
           <ExcelFile
-            element={<button className="o-button"> Exportar a Excel </button>}
+            element={<button className="o-button"> Descargar en Excel </button>}
             filename="Velocidad vs. Tiempo"
           >
             <ExcelSheet data={dataaVm2} name="Velocidad Vs Tiempo">
@@ -331,8 +338,10 @@ const Graphic = ({ type }) => {
             <br></br>
             <br></br>
           </div>
+          <h5>Descarga los datos, copialos y pegalos en CAPSTONE</h5>
+
           <ExcelFile
-            element={<button className="o-button"> Exportar a Excel </button>}
+            element={<button className="o-button"> Descargar en Excel </button>}
             filename="Posicion Vs Tiempo"
           >
             <ExcelSheet data={dataaXm3} name="Posicion Vs Tiempo">
@@ -348,8 +357,10 @@ const Graphic = ({ type }) => {
             <br></br>
             <br></br>
           </div>
+          <h5>Descarga los datos, copialos y pegalos en CAPSTONE</h5>
+
           <ExcelFile
-            element={<button className="o-button"> Exportar a Excel </button>}
+            element={<button className="o-button"> Descargar en Excel </button>}
             filename="Velocidad vs. Tiempo"
           >
             <ExcelSheet data={dataaVm3} name="Velocidad Vs Tiempo">
