@@ -255,7 +255,7 @@ const Graphic = ({ type }) => {
             <br></br>
             <br></br>
           </div>
-          <h5>Descarga los datos, copialos y pegalos en CAPSTONE</h5>
+          <h5>Descarga los datos, cópialos y pégalos en CAPSTONE</h5>
           <ExcelFile
             element={<button className="o-button"> Descargar en Excel </button>}
             filename="Posicion Vs Tiempo"
@@ -273,7 +273,7 @@ const Graphic = ({ type }) => {
             <br></br>
             <br></br>
           </div>
-          <h5>Descarga los datos, copialos y pegalos en CAPSTONE</h5>
+          <h5>Descarga los datos, cópialos y pégalos en CAPSTONE</h5>
 
           <ExcelFile
             element={<button className="o-button"> Descargar en Excel </button>}
@@ -296,7 +296,7 @@ const Graphic = ({ type }) => {
             <br></br>
             <br></br>
           </div>
-          <h5>Descarga los datos, copialos y pegalos en CAPSTONE</h5>
+          <h5>Descarga los datos, cópialos y pégalos en CAPSTONE</h5>
 
           <ExcelFile
             element={<button className="o-button"> Descargar en Excel </button>}
@@ -315,7 +315,7 @@ const Graphic = ({ type }) => {
             <br></br>
             <br></br>
           </div>
-          <h5>Descarga los datos, copialos y pegalos en CAPSTONE</h5>
+          <h5>Descarga los datos, cópialos y pégalos en CAPSTONE</h5>
 
           <ExcelFile
             element={<button className="o-button"> Descargar en Excel </button>}
@@ -338,7 +338,7 @@ const Graphic = ({ type }) => {
             <br></br>
             <br></br>
           </div>
-          <h5>Descarga los datos, copialos y pegalos en CAPSTONE</h5>
+          <h5>Descarga los datos, cópialos y pégalos en CAPSTONE</h5>
 
           <ExcelFile
             element={<button className="o-button"> Descargar en Excel </button>}
@@ -357,7 +357,7 @@ const Graphic = ({ type }) => {
             <br></br>
             <br></br>
           </div>
-          <h5>Descarga los datos, copialos y pegalos en CAPSTONE</h5>
+          <h5>Descarga los datos, cópialos y pégalos en CAPSTONE</h5>
 
           <ExcelFile
             element={<button className="o-button"> Descargar en Excel </button>}
